@@ -26,6 +26,7 @@
       <change afterPath="$PROJECT_DIR$/app/core/tests/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/core/tests/test_models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
@@ -92,5 +93,9 @@
       <screen x="60" y="27" width="1860" height="1053" />
     </state>
     <state x="697" y="355" width="576" height="410" key="#com.intellij.fileTypes.FileTypeChooser/60.27.1860.1053@60.27.1860.1053" timestamp="1601284319419" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1601293253778">
+      <screen x="60" y="27" width="1860" height="1053" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/60.27.1860.1053@60.27.1860.1053" timestamp="1601293253778" />
   </component>
 </project>
