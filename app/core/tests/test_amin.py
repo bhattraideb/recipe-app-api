@@ -33,7 +33,7 @@ class TestAdminSite(TestCase):
         self.assertEquals(result.status_code, 200)
 
     def test_create_user_page(self):
-        """Tests that the create user page works"""
+        """Tests that the create user page works correctly"""
         url = reverse('admin:core_user_add')
         result = self.client.get(url)
 
