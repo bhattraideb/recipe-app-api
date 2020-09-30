@@ -20,15 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c27c5d1-51b1-4b0c-82d5-38c7d368f18f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/core/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/management/commands/wait_for_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/tests/test_commands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/tests/test_user_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,5 +96,9 @@
       <screen x="60" y="27" width="1860" height="1053" />
     </state>
     <state width="498" height="446" key="SwitcherDM/60.27.1860.1053@60.27.1860.1053" timestamp="1601293253778" />
+    <state x="715" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1601380786021">
+      <screen x="60" y="27" width="1860" height="1053" />
+    </state>
+    <state x="715" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/60.27.1860.1053@60.27.1860.1053" timestamp="1601380786021" />
   </component>
 </project>
