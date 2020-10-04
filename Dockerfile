@@ -16,10 +16,7 @@ COPY ./app /app
 
 RUN mkdir -p /vol/web/media
 RUN mkdir -p /vol/web/static
-#RUN -D dockeruser
 RUN adduser -D dockeruser
 RUN chown -R dockeruser:dockeruser /vol
 RUN chmod -R 755 /vol/web
-
-
 USER dockeruser
