@@ -35,9 +35,7 @@ class PublicUserApiTests(TestCase):
         self.assertEquals(result.status_code, status.HTTP_201_CREATED)
         user = get_user_model().objects.get(**result.data)
         self.assertTrue(user.check_password(payload['password']))
-
-        # test fails in this line because of password field, need to fix
-        # self.assertNotIn('password', result.data)
+        self.assertNotIn('password', result.data)
 
     def test_user_exists(self):
         """Test creating user that already exists"""
@@ -55,8 +53,7 @@ class PublicUserApiTests(TestCase):
     def test_password_too_short(self):
         """Test that the password must be more than 5 characters"""
         payload = {
-            # test fails in this line because of name field, need to fix
-            # 'name': 'NewUser',
+            'name': 'NewUser',
             'email': 'test.deb@gmail.com',
             'password': 'pw'
         }
@@ -132,15 +129,14 @@ class PrivateUserApiTest(TestCase):
         self.client = APIClient()
         self.client.force_authenticate(user=self.user)
 
-    # test fails for this function, need to fix
-    # def test_retrieve_profile_success(self):
-    #     """Test retrieving profile for loggedin users"""
-    #     result = self.client.get(ME_URL)
-    #     self.assertEquals(result.status_code, status.HTTP_200_OK)
-    #     self.assertEquals(result.data, {
-    #         'name': self.user.name,
-    #         'email': self.user.email
-    #     })
+    def test_retrieve_profile_success(self):
+        """Test retrieving profile for loggedin users"""
+        result = self.client.get(ME_URL)
+        self.assertEquals(result.status_code, status.HTTP_200_OK)
+        self.assertEquals(result.data, {
+            'name': self.user.name,
+            'email': self.user.email
+        })
 
     def post_me_not_allowed(self):
         """Test that POST is not allowed on ME_URL"""

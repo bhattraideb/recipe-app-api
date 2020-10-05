@@ -20,12 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c27c5d1-51b1-4b0c-82d5-38c7d368f18f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/migrations/0002_tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/migrations/0002_tag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/migrations/0003_ingredient.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/migrations/0003_ingredient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/migrations/0004_recipe.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/migrations/0004_recipe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/migrations/0005_recipe_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/migrations/0005_recipe_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/recipe/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/recipe/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/recipe/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/recipe/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/recipe/tests/test_ingredient_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/test_ingredient_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/recipe/tests/test_tags_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/test_tags_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/recipe/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/user/tests/test_user_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/tests/test_user_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +54,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hzaUptcYgEK6R0DaZjiH7cteMo" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -122,14 +133,18 @@
       <screen x="60" y="27" width="1860" height="1053" />
     </state>
     <state width="498" height="446" key="SwitcherDM/60.27.1860.1053@60.27.1860.1053" timestamp="1601293253778" />
+    <state x="680" y="162" width="620" height="783" key="find.popup" timestamp="1601896180277">
+      <screen x="60" y="27" width="1860" height="1053" />
+    </state>
+    <state x="680" y="162" width="620" height="783" key="find.popup/60.27.1860.1053@60.27.1860.1053" timestamp="1601896180277" />
     <state x="653" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1601544483445">
       <screen x="60" y="27" width="1860" height="1053" />
     </state>
     <state x="653" y="259" width="672" height="678" key="search.everywhere.popup/60.27.1860.1053@60.27.1860.1053" timestamp="1601544483445" />
-    <state x="715" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1601481251121">
+    <state x="715" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1601895191663">
       <screen x="60" y="27" width="1860" height="1053" />
     </state>
-    <state x="715" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/60.27.1860.1053@60.27.1860.1053" timestamp="1601481251121" />
+    <state x="715" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/60.27.1860.1053@60.27.1860.1053" timestamp="1601895191663" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
