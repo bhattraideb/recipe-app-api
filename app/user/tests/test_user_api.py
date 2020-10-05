@@ -138,7 +138,7 @@ class PrivateUserApiTest(TestCase):
             'email': self.user.email
         })
 
-    def post_me_not_allowed(self):
+    def test_post_me_not_allowed(self):
         """Test that POST is not allowed on ME_URL"""
         result = self.client.post(ME_URL, {})
         self.assertEquals(result.status_code,

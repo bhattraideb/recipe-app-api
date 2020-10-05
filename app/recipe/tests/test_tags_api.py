@@ -61,7 +61,7 @@ class PrivateTagApiTests(TestCase):
         self.assertEqual(len(response.data), 1)
         self.assertEqual(response.data[0]['name'], tag.name)
 
-    def create_tags_successful(self):
+    def test_create_tags_successful(self):
         """Test creating a new tag"""
         payload = {'name': 'Test tag'}
         self.client.post(TAGS_URL, payload)

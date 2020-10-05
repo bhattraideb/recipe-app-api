@@ -17,7 +17,7 @@ class PublicIngredientApiTests(TestCase):
     def setUp(self):
         self.client = APIClient()
 
-    def login_required(self):
+    def test_login_required(self):
         """Test that login is required to access the endpoint"""
         response = self.client.get(INGREDIENTS_URL)
 

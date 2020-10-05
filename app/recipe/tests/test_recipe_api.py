@@ -161,7 +161,7 @@ class PrivateRecipeTest(TestCase):
         self.assertIn(ingredient, ingredients)
         self.assertIn(ingredient1, ingredients)
 
-    def partial_update_recipe(self):
+    def test_partial_update_recipe(self):
         """Test updating a recipe with patch"""
         recipe = sample_recipe(user=self.user)
         recipe.tags.add(sample_tag(user=self.user))
@@ -179,7 +179,7 @@ class PrivateRecipeTest(TestCase):
         self.assertEqual(len(tags), 1)
         self.assertIn(new_tag, tags)
 
-    def full_update_recipe(self):
+    def test_full_update_recipe(self):
         """Test updating recipe with put"""
         recipe = sample_recipe(user=self.user)
         recipe.tags.add(sample_tag(user=self.user))
