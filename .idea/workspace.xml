@@ -20,22 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c27c5d1-51b1-4b0c-82d5-38c7d368f18f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/migrations/0002_tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/migrations/0002_tag.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/migrations/0003_ingredient.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/migrations/0003_ingredient.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/migrations/0004_recipe.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/migrations/0004_recipe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/migrations/0005_recipe_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/migrations/0005_recipe_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/tests/test_ingredient_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/test_ingredient_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/tests/test_tags_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/test_tags_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/user/tests/test_user_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/tests/test_user_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
